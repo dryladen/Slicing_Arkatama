@@ -1,10 +1,10 @@
+<?php $title = "Landing Page";?>
 <nav role="navigation" class="navbar navbar-expand-lg bg-blue text-white fw-bold">
   <div class="container-fluid mx-sm-5">
     <a href="#" class="navbar-brand text-white fw-bold">WebKuy</a>
     <ul class="navbar-nav px-5 mx-sm-5 d-flex justify-content-evenly">
       <li class="p-2 nav-item"><a href="#">Home</a></li>
-      <li class="p-2 nav-item"><a href="#">Harga Web</a></li>
-      <li class="p-2 nav-item"><a href="#">Kontak</a></li>
+      <li class="p-2 nav-item"><a href="<?= base_url('auth/logout') ?>">Log Out</a></li>
     </ul>
   </div>
 </nav>
@@ -26,7 +26,7 @@
           <li>Hosting 50 MB</li>
           <li>Bandwidth 5 GB/ bulan</li>
         </ul>
-        <a href="<?= base_url() ?>index.php/login" class="text-center">
+        <a href="#" class="text-center">
           <button class="mx-5 beli btn bg-blue">
             Beli Sekarang
           </button></a>
@@ -40,7 +40,7 @@
           <li>Hosting 100 MB</li>
           <li>Bandwidth 10 GB/ bulan</li>
         </ul>
-        <a href="<?= base_url() ?>index.php/login" class="text-center"><button class="mx-5 btn beli bg-blue">
+        <a href="#" class="text-center"><button class="mx-5 btn beli bg-blue">
             Beli Sekarang
           </button></a>
       </div>

@@ -1,10 +1,10 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
-class LandingPage extends CI_Controller {
+class Admin extends CI_Controller {
   public function index(){
-    $data["title"] = "Landing Page";
+    $data["title"] = "Management Data";
     $this->load->view('templates/header',$data);
-    $this->load->view('landingPage');
+    $this->load->view('admin');
     $this->load->view('templates/footer');
   }
 }?>
